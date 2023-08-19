@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPPE</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <div class="shoppe">
+            
+                <div class="s">S</div>HOPPE
+            
+        </div>
+        <div class="upbut">
+            <div class="links">
+                <a href="#" id="shop">Shop</a>
+                <a href="blog.html" >Blog</a>
+                <a href="story.html">Our Story</a>
+            </div>
+            <div style="color: #707070; font-weight: bold;">
+                |
+            </div>
+            <div class="butshoppebl">
+                <button class="butshoppe" id="lupa"><img src="picture/lupaza.png"></button>
+                <button class="butshoppe" id="openbasket-btn"><img src="picture/korzina.png"></button>
+                <button class="butshoppe" id="openmodal-btn"><img src="picture/icon.png"></button>
+            </div>
+        </div>
+
+        
+    </header>
+<main>
+ 
+
+    <div class="modal" id="mymodal">
+        <div class="modalbox" >
+            <button class="closemodal" id="closemodalbox-btn" ><img src="picture/close.png"></button>
+            <p class="vhod">sign in</p>
+            <div class="mail">Email</div>
+            <input type="text" placeholder="Enter Email" name="email" required id="login">
+            <div class="password">Password</div>
+            <input type="password" placeholder="Enter Password" name="psw" required id="password">
+            <div class="wronglogin" id="wronglogin">wrong login or password</div>
+            <button class="signin" id="signin">sign in</button>            
+            <p class="notregistred">not registered yet?</p>
+            <button class="register" id="register">register</button>
+        </div>
+    </div>
+
+
+    <!-- модальное окно корзина -->
+
+    <div class="basket" id="mybasket">
+        <div class="basketbox" >
+            <button class="closebasket" id="closebasketbox-btn" ><img src="picture/close.png"></button>
+            <p class="sorry">SORRY!</p>
+            <p class="error">an unexpected error occurred</p>
+            <p class="problem">We are already solving the problem, check back later</p>
+
+        </div>
+    </div>
+
+    <!-- сайт -->
+
+    <div class="banner">
+        <div class="inbanner">
+            <div class="inbannertxt">
+                <p class="bannertext gold">
+                    Gold big hoops 
+                </p>
+                <p class="bannertext money">
+                    $ 68,00
+                </p>
+                <button class="bannertext viewreoduct" id="viewreoduct" href="#products"  > 
+                    View Product
+                </button>
+            </div>    
+        </div>
+    </div>
+
+    <div class="middleinscription">
+        <div class="midlletxt">
+            Shop The Latest 
+        </div>
+        <a href="#" class="viewall">View All</a>
+    </div>
+
+    <div class="productsone">
+        
+            <div class="lineone lines" id="products">
+                <div class="Liraearrings">
+                    <img src="picture/Lira Earrings.png">
+                    <p class="nameofproducts">Lira Earrings</p>
+                    <p class="price">$ 20,00</p>
+                </div>
+
+                <div class="HalEarrings">
+                    <img src="picture/Hal Earrings.png">
+                    <p class="nameofproducts">Hal Earrings</p>
+                    <p class="price">$ 25,00</p>
+                </div>
+
+                <div class="KaedeHairPinSetOf">
+                    <img src="picture/Kaede Hair Pin Set Of 3.png">
+                    <p class="nameofproducts">Kaede Hair Pin Set Of 3</p>
+                    <p class="price">$ 30,00</p>
+                </div>
+
+            </div>
+    </div>
+ 
+     <div class="productstwo">       
+        <div class="linetwo lines">
+            <div class="HairPinSetof">
+                <img src="picture/Hair Pin Set of 3.png">
+                <p class="nameofproducts">Lira Earrings</p>
+                <p class="price">$ 30,00</p>
+            </div>
+
+            <div class="PlaineNecklace">
+                <img src="picture/Plaine Necklace.png">
+                <p class="nameofproducts">Hal Earrings</p>
+                <p class="price">$ 19,00</p>
+            </div>
+
+            <div class="YukiHairSetof">
+                <img src="picture/Yuki Hair Set of 3.png">
+                <p class="nameofproducts">Kaede Hair Pin Set Of 3</p>
+                <p class="price">$ 29,00</p>
+            </div>
+        </div>
+    </div> 
+
+    <script defer src="index.js"></script>
+
+</main>
+
+
+<footer>
+    <div class="lowline">
+        <div class="line">
+        </div>
+    </div>
+
+     <div class="footerblock" >
+       
+            <div class="siteinformation">
+                <a href="#">CONTACT</a>
+                <a href="#">TERMS OF SERVICES</a>
+                <a href="#" >SHIPPING AND RETURNS</a>
+            </div>
+    
+            <div class="arrow">
+                <a href="#">Give an email, get the newsletter.</a>
+                <img src="picture/arrow.png">
+            </div>
+    </div>
+    
+    <div class="contacts">
+        <div class="privacypolicy">
+            <p><span style="color:black">© 2021 Shelly. </span>Terms of use  <span style="color:black"> and </span>  privacy policy.</p>
+        </div>
+        <div class="society">
+            <img src="picture/in.png" width="18px" height="18px">
+            <img src="picture/f.png" width="10px" height="18px">
+            <img src="picture/insgrm.png" width="18px" height="18px">
+            <img src="picture/twtr.png" width="20px" height="17px">
+        </div>
+    </div>
+    
+</footer>
+</body>
+</html>
